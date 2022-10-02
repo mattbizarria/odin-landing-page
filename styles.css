@@ -6,4 +6,46 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #1f2937;
+}
+
+.body {
+	min-height: 100vh;
+}
+
+.header {
+	background-color: #1f2937;
+}
+
+.header-content {
+	margin: 0 auto;
+	width: 64%;
+	padding: 16px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header .logo {
+	font-size: 24px;
+	font-weight: 900;
+	color: #f9faf8;
+}
+
+.header .links {
+	display: flex;
+	gap: 24px;
+	list-style-type: none;
+	color: #e5e7eb;
+}
+
+.header a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.header a:hover,
+.header a:active {
+	color: #3882f6;
 }

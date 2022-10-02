@@ -12,6 +12,9 @@ body {
 
 .body {
 	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .header {
@@ -48,4 +51,18 @@ body {
 .header a:hover,
 .header a:active {
 	color: #3882f6;
+}
+
+.footer {
+	background-color: #1f2937;
+}
+
+.footer-content {
+	margin: 0 auto;
+	width: 64%;
+	padding: 16px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #f9faf8;
 }
